@@ -1,0 +1,29 @@
+<$PLAN9/src/mkhdr
+
+LIB=libcontrol.a
+
+OFILES=\
+	box.$O\
+	button.$O\
+	cache.$O\
+	control.$O\
+	entry.$O\
+	group.$O\
+	keyboard.$O\
+	label.$O\
+	menu.$O\
+	radiobutton.$O\
+	slider.$O\
+	tabs.$O\
+	text.$O\
+	textbutton.$O\
+	textbutton3.$O\
+
+HFILES=\
+	$PLAN9/include/draw.h\
+	$PLAN9/include/mouse.h\
+	$PLAN9/include/keyboard.h\
+	$PLAN9/include/control.h\
+	group.h
+
+<$PLAN9/src/mksyslib
